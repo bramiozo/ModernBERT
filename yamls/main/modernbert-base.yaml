@@ -12,7 +12,6 @@ run_name: modernbert-base
 # Model
 model:
   name: flex_bert
-  pretrained_model_name: CLTL/MedRoBERTa.nl
   tokenizer_name: ${tokenizer_name}
   disable_train_metrics: true
   # FlexBERT 'base' generally uses the default architecture values from the Hugging Face BertConfig object
