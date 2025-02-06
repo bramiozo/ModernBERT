@@ -2,7 +2,7 @@ data_local: data_folder
 data_remote: # If blank, files must be present in data_local
 
 max_seq_len: 1024
-tokenizer_name: answerdotai/ModernBERT-base
+tokenizer_name: CLTL/MedRoBERTa.nl
 mlm_probability: 0.3 # FlexBERT should use 30% masking for optimal performance
 count_padding_tokens: false
 
@@ -12,7 +12,7 @@ run_name: modernbert-base
 # Model
 model:
   name: flex_bert
-  pretrained_model_name: bert-base-uncased
+  pretrained_model_name: CLTL/MedRoBERTa.nl
   tokenizer_name: ${tokenizer_name}
   disable_train_metrics: true
   # FlexBERT 'base' generally uses the default architecture values from the Hugging Face BertConfig object
