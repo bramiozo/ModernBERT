@@ -7,7 +7,7 @@ mlm_probability: 0.3 # FlexBERT should use 30% masking for optimal performance
 count_padding_tokens: false
 
 # Run Name
-run_name: modernbert-base
+run_name: modernbert-base-dutch
 
 # Model
 model:
